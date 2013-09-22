@@ -9,4 +9,4 @@ Bloccit::Application.routes.draw do
   match "about" => 'welcome#about', via: :get
 
   root :to => 'welcome#index'
-endF
+end
